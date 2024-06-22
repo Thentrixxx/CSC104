@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Multimedia</title>
+</head>
+<!-- External Style -->
+ <link rel="stylesheet" href="week_three_css.css">
+<!-- Embedded Style -->
+<style>
+    body{
+        background-image: url('images/html_v_css.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color:aquamarine;
+    }
+
+    p{
+        font-weight: bold;
+        font-size: 13pt;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .imgStyles{
+        width: 300px;
+    }
+</style>
+
+<body>
+    <!-- Add a header to our page -->
+    <header>
+        <!-- Only 1 h1 tag in a page. -->
+        <h1>Multimedia Examples</h1>
+    </header>
+
+    <main>
+        <p>CSS was first proposed as a standard by the W3C in 1996</p>
+        <!-- Audio file to the page -->
+        <audio controls>
+            <source src="File Name" type="audio/mp3">
+        </audio>
+
+        <!-- Video file on the page -->
+        <video controls width="320" height="240">
+            <source src="videofile.mp4">
+        </video>
+
+        <!-- Add an image with the img tag; always include the alternative text for the image -->
+         <!-- TODO: resize image later -->
+        <img src="images/Sitemap.png" alt="beach">
+    </main>
+</body>
+</html>

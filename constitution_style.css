@@ -1,0 +1,68 @@
+/* Body of the website */
+/* Contains the main part into a box. */
+body{
+	background-color:#a3cadf;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+/* Separates the header from the main and the top a bit. */
+header{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Different color than body with a glow. */
+main{
+	background-color: rgb(198, 227, 218);
+	padding-bottom: 20px;
+	-webkit-box-shadow:0px 0px 105px 45px rgba(198, 227, 218,1.00);
+	-moz-box-shadow: 0px 0px 105px 45px rgba(198, 227, 218,1.00);
+	box-shadow: 0px 0px 105px 45px rgba(198, 227, 218,1.00);	
+}
+
+/* The top heading, one and only one instance of this */
+h1{
+	/* Sets the text and the box to the center */
+	text-align: center;
+	align-self: center;
+
+	/* Sets the background color contained within the box to light blue  */
+	background-color: rgb(173, 226, 211);
+
+	/* Font */
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+	/* Contains the box to the size it is */
+	width: 40%;
+	border:3px solid black;
+	border-color:black;
+
+	/* Sets the margin of the box to be automatically at the top center */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+
+/* h2, bigger than h3, has a bold and underline, is aligned to center */
+/* Also a bit of top padding to keep the text contained. */
+h2{
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 20px;
+}
+
+/* h3, aligned to the left with a smaller padding than paragraph.*/
+/* Also has a small glow to pop out a bit. */
+h3{
+	padding-left: 30px;
+	text-shadow: rgba(0, 0, 0, 0.349) 0px 0px 6px;
+}
+
+/* Paragraph, aligned further than h3 for effect, also has padding. */
+p{
+	padding-left: 50px;
+	padding-right: 50px;
+	align-self: center;
+}

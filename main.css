@@ -1,0 +1,43 @@
+/* This is an external style sheet. */
+body{
+    color:rgb(27, 64, 89);
+    /* One way to layout information on a webpage */
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+header{
+    grid-row: 1;
+    width: 100%;
+    background-color:rgb(255, 226, 188);
+}
+
+main{
+    grid-row: 2;
+    padding: 20px
+}
+
+footer{
+    background-color:rgb(255, 226, 188);
+    grid-row: 3;
+}
+
+h1{
+    color:rgb(22, 177, 156);
+}
+
+h2{
+    color:rgb(47, 141, 142);
+}
+
+#imgHTMLvCSS{
+    width: 500px;
+}
+
+.myGreenText{
+    color: green;
+}
+
+.myNewCustomStyle{
+    color:aqua;
+}
