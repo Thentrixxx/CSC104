@@ -1,3 +1,4 @@
+/* Added a radial gradiant as the background and changed the font. */
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
@@ -5,26 +6,30 @@ body{
     background: radial-gradient(rgb(197, 238, 174), rgb(7, 70, 13));
 }
 
+/* Added a linear gradiant to the header, and centered the text so it looks nice. */
 header{
     background: linear-gradient(to right, rgb(122, 218, 67), rgb(86, 160, 92));
     text-align: center;
     padding: 20px;
 }
 
+/* Added the same linear gradient as the header. */
 footer{
     background: linear-gradient(to right, rgb(122, 218, 67), rgb(86, 160, 92));
-    text-align: center;
     padding: 20px;
 }
 
+/* Aligning the cactus titles to the center. */
 h2{
     text-align: center;
 }
 
+/* Separating the lists from the side of the webpage. */
 ul{
     margin-left: 100px;
 }
 
+/* Making the images centered, as well as having a black outline. */
 img{
     width: 400px;
     padding: 10px;
